@@ -1,0 +1,4 @@
+Exp ::= (e | E) (+|-)? NumberNN
+NumberNN ::= PDigit (_* Digit)* | 0
+Float ::= Number Exp? | PDigit (_* Digit)* (NumberNN . | . 0* NumberNN)  Exp?
+Number wie in der Präsenzaufgabe definiert.

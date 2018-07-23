@@ -1,0 +1,4 @@
+Number ::= -? PDigit (Underscore Digit)* | 0
+Underscore ::= _*
+PDigit ::= 1 | ... | 9
+Digit ::= 0 | PDigit

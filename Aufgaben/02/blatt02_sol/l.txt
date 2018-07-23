@@ -1,0 +1,5 @@
+a+ : a a*
+
+1. (a | c | ... | z)*
+2. (a|b) letter* c
+3. (a letter* b) | (b letter* a)
